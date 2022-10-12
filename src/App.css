@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+#reactmodal {
+  background-color: #1e1e1e;
+  position: relative;
+  display: inline-block;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+
+
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+label {
+  text-align: left;
+  display: block;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+input {
+
+  width: 50%;
+  height: 40px;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 9px;
+  border-width: 0px;
+  background-color: #e8e8e8;
+  box-shadow: 1px 1px 3px 0 #000;
+  mix-blend-mode: normal;
+  
+}
+
+textarea {
+  width: 80%;
+  height: 80px;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+  border-width: 0px;
+  margin-top: 5px;
+  border-radius: 9px;
+  background-color: #e8e8e8;
+  box-shadow: 1px 1px 3px 0 #000;
+  mix-blend-mode: normal;
+  font-family: 'Space Grotesk', sans-serif;
+  
+}
+
+
+#message {
+  white-space: pre-wrap;
+}
+#submit-button {
+  text-align: left;
+  display: block;
+  border-width: 0px;
+  margin-top: 22px;
+  padding-right: 27px;
+  padding-left: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: #ea3b8e;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+button {
+  text-align: left;
+  display: block;
+  border-width: 0px;
+  margin-top: 22px;
+  padding-right: 27px;
+  padding-left: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-color: #ea3b8e;
+  font-family: 'Space Grotesk', sans-serif;
+}

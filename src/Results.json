@@ -1,0 +1,107 @@
+{
+    "abi" : [
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_add",
+					"type": "address"
+				}
+			],
+			"name": "addAdmin",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_add",
+					"type": "address"
+				},
+				{
+					"internalType": "bool",
+					"name": "_authOrRevoke",
+					"type": "bool"
+				}
+			],
+			"name": "authentication",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "_firstName",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "_secondName",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "_DOB",
+					"type": "string"
+				},
+				{
+					"internalType": "address",
+					"name": "_add",
+					"type": "address"
+				},
+				{
+					"internalType": "string[]",
+					"name": "_gradesList",
+					"type": "string[]"
+				}
+			],
+			"name": "setResult",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_add",
+					"type": "address"
+				}
+			],
+			"name": "getResult",
+			"outputs": [
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "",
+					"type": "string"
+				},
+				{
+					"internalType": "string[]",
+					"name": "",
+					"type": "string[]"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		}
+	]
+}
